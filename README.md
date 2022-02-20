@@ -8,7 +8,7 @@ Usage
 
 Install better-jest into your project:
 
-    npm install --dev @kayahr/better-jest
+    npm install -D @kayahr/better-jest
 
 Use `better-jest` instead of `jest` in your `package.json`:
 
