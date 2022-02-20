@@ -26,7 +26,7 @@ By using better-jest you can use the `gc()` function within your Node.js tests o
 Environment variables
 ---------------------
 
-You can define Jest options globally with the environment variable JEST_OPTS and these options will then be picked up by better-jest and passed to Jest. This is for example helpful for CI systems which have specific needs for running the tests, like limiting the number of parallel workers when the CI host has an insane number of CPU cores. It is easier then to globally define this environment variable instead of configuring each build job separately.
+You can define Jest options globally with the environment variable JEST_OPTS and these options will then be picked up by better-jest and passed to Jest. This is for example helpful for CI systems which have specific needs for running the tests, like limiting the number of parallel workers when the CI host has an insane number of CPU cores. It is easier to globally define this environment variable instead of configuring each build job separately.
 
     # Do this somewhere global on your system
     export JEST_OPTS="--max-workers 1"
