@@ -8,7 +8,7 @@
         "environment",
         "gc"
     ],
-    "license": "SEE LICENSE IN LICENSE.md",
+    "license": "MIT",
     "repository": "github:kayahr/better-jest",
     "publishConfig": {
         "access": "public"
