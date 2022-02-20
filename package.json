@@ -1,7 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/package",
     "name": "@kayahr/better-jest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Jest wrapper to start jest with exposed garbage collector and options from JEST_OPTS environment variable",
     "keywords": [
         "jest",
