@@ -31,5 +31,6 @@ You can define Jest options globally with the environment variable JEST_OPTS and
     # Do this somewhere global on your system
     export JEST_OPTS="--max-workers 1"
 
-    # Then run your tests in all your projects and Jest is now limited to a single worker thread automatically
+    # Then run your tests in all your projects and Jest is now
+    # limited to a single worker thread automatically
     npm test
