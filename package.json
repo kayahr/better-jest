@@ -21,7 +21,7 @@
         "clean": "rimraf lib coverage doc/api",
         "compile": "tsc",
         "watch": "tsc -w",
-        "check": "cross-env JEST_OPTS='--globals {\"jestOptsPresent\":\"Yes\"}' bin/better-jest",
+        "check": "cross-env JEST_OPTS=\"--globals {\\\"jestOptsPresent\\\":\\\"Yes\\\"}\" bin/better-jest",
         "lint": "eslint --max-warnings 0 --ext .ts src",
         "cspell": "cspell --no-progress",
         "prepare": "npm run clean && npm run compile",

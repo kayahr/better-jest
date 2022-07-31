@@ -8,7 +8,7 @@ import { spawnSync } from "child_process";
 // Copy original arguments and replace better-jest with jest while doing this
 const args = process.argv.map(arg => {
     if (arg.endsWith("better-jest")) {
-        return arg.replace(/.*better-jest$/, require.resolve(".bin/jest"));
+        return arg.replace(/.*better-jest$/, require.resolve("jest-cli/bin/jest"));
     } else {
         return arg;
     }
