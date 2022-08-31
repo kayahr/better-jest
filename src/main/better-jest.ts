@@ -32,7 +32,10 @@ if (jestOpts != null) {
 }
 
 // Call the original Jest with the new options
-spawnSync(command, args, {
+const result = spawnSync(command, args, {
     cwd: process.cwd(),
     stdio: "inherit"
 });
+if (result.status != null) {
+    process.exit(result.status);
+}
