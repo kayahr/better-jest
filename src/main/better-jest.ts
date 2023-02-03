@@ -33,6 +33,7 @@ if (jestOpts != null) {
 
 // Call the original Jest with the new options
 const result = spawnSync(command, args, {
+    shell: false,
     cwd: process.cwd(),
     stdio: "inherit"
 });
