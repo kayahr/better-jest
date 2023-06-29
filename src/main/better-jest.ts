@@ -26,7 +26,7 @@ args.unshift("--expose-gc");
 // If JEST_OPTS environment variable is present then parse it and add the options to the Jest CLI arguments
 const jestOpts = process.env["JEST_OPTS"];
 if (jestOpts != null) {
-    jestOpts.split(/\s+/).forEach(option => {
+    jestOpts.trim().split(/\s+/).forEach(option => {
         args.push(option);
     });
 }
