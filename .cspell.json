@@ -17,8 +17,13 @@
         "*.tgz"
     ],
     "words": [
+        "cobertura",
         "kayahr",
+        "lcov",
         "Reimer"
     ],
-    "language": "en"
+    "language": "en",
+    "enableFiletypes": [
+        "javascript"
+    ]
 }
