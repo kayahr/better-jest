@@ -1,6 +1,9 @@
 better-jest
 ===========
 
+| :warning:  This project is no longer maintained because the author switched from Jest to [Vitest](https://vitest.dev/)  :warning: |
+| ------------------------------------------------------------------------------------------------------------------------------- |
+
 This is just wrapper script around [Jest](https://jestjs.io/) to start Jest with exposed garbage-collector and passing additional arguments from the JEST_OPTS environment variable.
 
 Usage
